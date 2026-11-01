@@ -46,7 +46,6 @@ HGRE-Experiments/
 │   ├── workloads/             CSV/JSONL/gzip/matrix scripts
 │   ├── results/               trials, policy replay, LLM-prior cache
 │   └── *.py                   agent, executor, predictor, runner
-├── analysis/verify_results.py reproduces the paper tables
 ├── requirements.txt
 └── LICENSE
 ```
@@ -71,21 +70,6 @@ export DEEPSEEK_MODEL=deepseek-chat
 export DEEPSEEK_BASE_URL=https://api.deepseek.com
 ```
 
-## Reproduce the saved results
-
-No LLM calls are needed for the table check:
-
-```bash
-cd /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments
-python -m analysis.verify_results
-```
-
-Expected final line:
-
-```text
-RESULT: PASS
-```
-
 ## Run the experiments
 
 ### LeetCode
@@ -96,7 +80,7 @@ python -m leetcode_runtime.run_trials --reps 5
 ```
 
 This runs all 633 problems. Use the first 543 question IDs for the exact paper
-subset; the verification script applies this filter automatically.
+subset when reproducing the paper tables.
 
 ### Controlled local tools
 
