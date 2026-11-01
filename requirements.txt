@@ -1,0 +1,5 @@
+numpy
+langgraph
+langchain
+langchain-core
+langchain-deepseek

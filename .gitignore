@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+.pytest_cache/
+
+# Generated controlled-workload inputs (about 2.4 GB)
+local_tool_runtime/data/csv/
+local_tool_runtime/data/jsonl/
+local_tool_runtime/data/gzip/
+!local_tool_runtime/data/README.md
+local_tool_runtime/runtime/

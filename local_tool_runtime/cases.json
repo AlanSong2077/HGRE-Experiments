@@ -1,0 +1,642 @@
+[
+  {
+    "case_id": "csv_01",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-10000",
+    "version_index": 1,
+    "input_size": 10000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 10000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_10000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_02",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-20000",
+    "version_index": 2,
+    "input_size": 20000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 20000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_20000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_03",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-50000",
+    "version_index": 3,
+    "input_size": 50000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 50000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_50000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_04",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-100000",
+    "version_index": 4,
+    "input_size": 100000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 100000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_100000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_05",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-200000",
+    "version_index": 5,
+    "input_size": 200000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 200000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_200000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_06",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-500000",
+    "version_index": 6,
+    "input_size": 500000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 500000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_500000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_07",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-1000000",
+    "version_index": 7,
+    "input_size": 1000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 1000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_1000000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_08",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-2000000",
+    "version_index": 8,
+    "input_size": 2000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 2000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_2000000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_09",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-5000000",
+    "version_index": 9,
+    "input_size": 5000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 5000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_5000000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "csv_10",
+    "task_id": "csv_process",
+    "command_type": "csv",
+    "version": "rows-10000000",
+    "version_index": 10,
+    "input_size": 10000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "csv",
+      "rows": 10000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/csv_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/csv/rows_10000000.csv",
+    "instruction": "Process the CSV file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_01",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-10000",
+    "version_index": 1,
+    "input_size": 10000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 10000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_10000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_02",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-20000",
+    "version_index": 2,
+    "input_size": 20000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 20000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_20000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_03",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-50000",
+    "version_index": 3,
+    "input_size": 50000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 50000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_50000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_04",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-100000",
+    "version_index": 4,
+    "input_size": 100000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 100000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_100000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_05",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-200000",
+    "version_index": 5,
+    "input_size": 200000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 200000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_200000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_06",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-500000",
+    "version_index": 6,
+    "input_size": 500000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 500000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_500000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_07",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-1000000",
+    "version_index": 7,
+    "input_size": 1000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 1000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_1000000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_08",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-2000000",
+    "version_index": 8,
+    "input_size": 2000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 2000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_2000000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_09",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-5000000",
+    "version_index": 9,
+    "input_size": 5000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 5000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_5000000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "jsonl_10",
+    "task_id": "jsonl_process",
+    "command_type": "jsonl",
+    "version": "rows-10000000",
+    "version_index": 10,
+    "input_size": 10000000,
+    "size_unit": "rows",
+    "input_size_source": "case_rows",
+    "source": {
+      "workload": "jsonl",
+      "rows": 10000000
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/jsonl_process.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/jsonl/rows_10000000.jsonl",
+    "instruction": "Process the JSONL file at the fixed path with the fixed script."
+  },
+  {
+    "case_id": "gzip_01",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "1MB",
+    "version_index": 1,
+    "input_size": 1,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 1
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_1mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_02",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "2MB",
+    "version_index": 2,
+    "input_size": 2,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 2
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_2mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_03",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "5MB",
+    "version_index": 3,
+    "input_size": 5,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 5
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_5mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_04",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "10MB",
+    "version_index": 4,
+    "input_size": 10,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 10
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_10mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_05",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "20MB",
+    "version_index": 5,
+    "input_size": 20,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 20
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_20mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_06",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "50MB",
+    "version_index": 6,
+    "input_size": 50,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 50
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_50mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_07",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "100MB",
+    "version_index": 7,
+    "input_size": 100,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 100
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_100mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_08",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "200MB",
+    "version_index": 8,
+    "input_size": 200,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 200
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_200mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_09",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "300MB",
+    "version_index": 9,
+    "input_size": 300,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 300
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_300mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "gzip_10",
+    "task_id": "gzip_compress",
+    "command_type": "gzip",
+    "version": "500MB",
+    "version_index": 10,
+    "input_size": 500,
+    "size_unit": "MB",
+    "input_size_source": "case_input_mb",
+    "source": {
+      "workload": "gzip",
+      "mb": 500
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/gzip_compress.py /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/data/gzip/input_500mb.bin out.gz",
+    "instruction": "Compress the fixed input file with the fixed gzip script."
+  },
+  {
+    "case_id": "matrix_01",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-32",
+    "version_index": 1,
+    "input_size": 32,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 32
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 32",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_02",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-64",
+    "version_index": 2,
+    "input_size": 64,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 64
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 64",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_03",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-96",
+    "version_index": 3,
+    "input_size": 96,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 96
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 96",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_04",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-128",
+    "version_index": 4,
+    "input_size": 128,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 128
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 128",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_05",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-192",
+    "version_index": 5,
+    "input_size": 192,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 192
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 192",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_06",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-256",
+    "version_index": 6,
+    "input_size": 256,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 256
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 256",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_07",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-384",
+    "version_index": 7,
+    "input_size": 384,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 384
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 384",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_08",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-512",
+    "version_index": 8,
+    "input_size": 512,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 512
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 512",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_09",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-768",
+    "version_index": 9,
+    "input_size": 768,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 768
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 768",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  },
+  {
+    "case_id": "matrix_10",
+    "task_id": "matrix_mul",
+    "command_type": "matrix",
+    "version": "n-1024",
+    "version_index": 10,
+    "input_size": 1024,
+    "size_unit": "dimension",
+    "input_size_source": "case_dimension",
+    "source": {
+      "workload": "matrix",
+      "n": 1024
+    },
+    "fixed_command": "python3 /Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/workloads/matrix_mul.py 1024",
+    "instruction": "Run the fixed matrix multiplication script with dimension n."
+  }
+]

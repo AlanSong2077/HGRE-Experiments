@@ -1,0 +1,11 @@
+{
+  "experiment": "leetcode_runtime",
+  "paper_name": "LeetCode runtime prediction",
+  "dataset": "/Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/leetcode_runtime/data/leetcode_full.jsonl",
+  "sample": 0,
+  "reps": 5,
+  "seed": 42,
+  "k_range": [200, 2000],
+  "success": "official_tests",
+  "policies": ["m2", "llm_prior", "exp_50_x2", "exp_100_x2", "exp_200_x2", "exp_100_x1.5", "exp_100_x3", "exp_500_x2"]
+}

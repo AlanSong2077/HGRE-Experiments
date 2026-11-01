@@ -1,0 +1,8 @@
+{
+  "experiment": "local_tool_runtime",
+  "paper_name": "Controlled local-tool runtime",
+  "cases": "/Users/alansong/Desktop/FORDEEPSEEK/HGRE-Experiments/local_tool_runtime/cases.json",
+  "reps": 3,
+  "seed": 42,
+  "policies": ["m2", "llm_prior", "native_sleep", "exp_50_x2", "exp_100_x2", "exp_200_x2", "exp_100_x1.5", "exp_100_x3", "exp_500_x2"]
+}
